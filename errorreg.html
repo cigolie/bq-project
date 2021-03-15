@@ -1,0 +1,35 @@
+<!DOCTYPEhtml>
+<html>
+  <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Bible Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script language="javascript">
+      window.alert("Eroare la înregistrare.Acest nume de utilizator deja exista! Alegeti altul.");
+    </script>
+  </head>
+  <body> 
+    
+    <div class="titlu" >
+      <font face='Courier' size="7px" color='#3d5c5c '>B†Q</font><div class= "motto">   Bible Quiz </div></div>
+<table>      
+<tr><td>
+  <!--Formular register-->
+ <div id="first"><form method="POST" action="register.php"><table><caption><br><b>Înregistrează-te.</b></caption>
+  <tr><td>Username:</td><td><input type="text" name="nume" required></td></tr>
+<tr><td>Parola:</td><td><input type="password" name="pass" required></td></tr>
+<tr><td>Telefon:</td><td><input type="text" name="tel" required></td></tr>
+<tr><td><input type="reset" value="Anulează"></td><td><input type="submit" value="Trimite" ></td></tr></table></form>
+</td></div>
+    <!--Formular login -->
+  <td><div id="first"><form method="POST" action="login.php"><table><caption><b>Ai deja cont?  Autentifică-te.</b></caption>
+  <tr><td>Username:</td><td><input type="text" name="nume" required></td></tr>
+<tr><td>Parola:</td><td> <input type="password" name="pass" required></td></tr>
+<tr><td><input type="reset" value="Anulează"></td><td><input type="submit" value="Trimite"></td></tr></table></td></tr></form>
+
+</div>
+  </table>
+  </body>
+</html>
