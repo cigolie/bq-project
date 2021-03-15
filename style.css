@@ -1,0 +1,154 @@
+body,html{
+  background: url("b6.jpg");
+  width: 100%;
+  height: 100%;
+
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center  ;
+  font-family: Courier;
+}
+
+.titlu{
+  color:#3d5c5c ;
+  font-family: "Courier";
+
+
+}
+
+#first{
+width:240px;
+height:310px;
+box-shadow:0 0 15px rgba(14,41,57,0.12),0 2px 5px rgba(14,41,57,0.44),inset 0 -1px 2px rgba(14,41,57,0.15);
+float:left;
+padding:10px 50px 0;
+margin:2% 30%;
+border-radius:5px;
+background-color:white;
+opacity: 0.8;
+vertical-align: middle;
+
+}
+#sec{
+width:auto;
+height:auto;
+box-shadow:0 0 15px rgba(14,41,57,0.12),0 2px 5px rgba(14,41,57,0.44),inset 0 -1px 2px rgba(14,41,57,0.15);
+float:left;
+padding:10px 55px 0;
+margin:3% 30%;
+border-radius:5px;
+background-color:white;
+opacity: 0.9;
+vertical-align: middle;
+
+}
+
+#third{
+width:auto;
+height:auto;
+padding:5px 10px 0;
+margin:2% 15% 2%;
+border-radius:5px;
+background-color:white;
+opacity:1.1;
+left: 0px;
+padding-top: 1px;
+padding-right: 30px;
+}
+
+#forth{
+width:auto;
+height:auto;
+padding:5px 10px 0;
+margin:2% 15% 2%;
+border-radius:5px;
+background-color:white;
+opacity: 0.9;
+left: 0px;
+padding-top: 1px;
+padding-right: 30px;
+
+}
+
+
+table{
+ table-layout: fixed;
+  width: 100%;  
+ column-width: 100%;
+ vertical-align: middle;
+ align-content:center; 
+
+}
+
+input[type=text]{
+  width: 100%;
+  padding: 1vw 1vw;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  size: 10px;
+
+}
+
+input[type=password]{
+  width: 100%;
+  padding: 1vw 1vw;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 90%;
+  background-color:#3d5c5c ;
+  color: white;
+  padding: 1vw 1vw;
+  margin: 2vw 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=reset]  {
+  width: 90%;
+  background-color: #94b8b8;
+  color: white;
+  padding: 1vw 1vw;
+  margin: 2vw 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+
+}
+.motto {
+  color:#3d5c5c;
+  font-family: "Courier";
+  text-align: left;
+  font-size: 0.95vw;
+  font-style: italic;
+  text-indent: 2em;
+}
+
+.istoric{
+	color:#3d5c5c ;
+  font-family: "Courier";
+  size: 6px;
+  text-indent: 2em;
+  text-align: left;
+}
+
+a:link, a:visited {
+  background-color: #3d5c5c;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #94b8b8;
+}
